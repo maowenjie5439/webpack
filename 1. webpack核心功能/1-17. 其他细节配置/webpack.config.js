@@ -9,10 +9,14 @@ module.exports = {
     //     jquery: "$",
     //     lodash: "_"
     // },
-    stats: {
-        colors: true,
-        modules: false,
-        hash: false,
-        builtAt: false
-    }
+    // stats: {
+    //     colors: true,
+    //     modules: false,
+    //     hash: false,
+    //     builtAt: false
+    // }
+    // output: {
+    //     path: path.resolve(__dirname, "dist"),
+    //     filename: "[name].[chunkhash:4].js"
+    // }
 }
