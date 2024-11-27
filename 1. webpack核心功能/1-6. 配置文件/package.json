@@ -7,10 +7,11 @@
     "license": "ISC",
     "scripts": {
         "dev": "webpack --mode=development",
-        "build": "webpack --mode=production"
+        "build": "webpack --mode=production",
+        "webpack:test": "webpack --config mjsConfig.mjs --experimental-specifier-resolution=node"
     },
     "devDependencies": {
         "webpack": "^4.41.5",
-        "webpack-cli": "^3.3.10"
+        "webpack-cli": "^3.3.12"
     }
 }

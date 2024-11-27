@@ -93,8 +93,10 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log('loader1');\n\n//# sourceURL=webpack:///./src/index.js?");
+console.log("index")
+
 
 /***/ })
 
 /******/ });
+//# sourceMappingURL=main.dd06.js.map

@@ -81,10 +81,22 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
 /******/ ({
+
+/***/ "./src/a.js":
+/*!******************!*\
+  !*** ./src/a.js ***!
+  \******************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+console.log("aaaa")
+
+
+/***/ }),
 
 /***/ "./src/index.js":
 /*!**********************!*\
@@ -93,8 +105,23 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log('loader1');\n\n//# sourceURL=webpack:///./src/index.js?");
+console.log("index")
+
+
+/***/ }),
+
+/***/ 0:
+/*!***************************************!*\
+  !*** multi ./src/a.js ./src/index.js ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ./src/a.js */"./src/a.js");
+module.exports = __webpack_require__(/*! ./src/index.js */"./src/index.js");
+
 
 /***/ })
 
 /******/ });
+//# sourceMappingURL=a.0ab0.js.map

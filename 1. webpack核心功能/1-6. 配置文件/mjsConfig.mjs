@@ -1,6 +1,6 @@
+import './123'
 
-// console.log(window) // 报错，window is not defined
-module.exports = {
+export default {
     entry: "./src/main.js",
     output: {
         filename: "bundle.js"
