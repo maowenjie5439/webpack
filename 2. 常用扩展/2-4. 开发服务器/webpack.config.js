@@ -2,7 +2,7 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin")
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
     mode: "development",
-    devtool: "source-map",
+    // devtool: "source-map",
     output: {
         filename: "scripts/[name].[chunkhash:5].js"
     },
@@ -14,7 +14,7 @@ module.exports = {
     ],
     devServer: {
         port: 8000,
-        open: true,
+        // open: true,
         proxy: { //代理规则
             "/api": {
                 target: "http://open.duyiedu.com",
